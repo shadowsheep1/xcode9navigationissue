@@ -23,7 +23,7 @@
         [self.view addSubview:myNav];
         
         UIBarButtonItem *cancelItem = [[UIBarButtonItem alloc] initWithTitle:@"Cancel"
-                                                                       style:UIBarButtonSystemItemCancel
+                                                                       style:UIBarButtonItemStyleDone
                                                                       target:self
                                                                       action:nil];
         

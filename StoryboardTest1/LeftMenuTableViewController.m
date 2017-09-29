@@ -46,7 +46,8 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 #warning "Why?! ...guess what?! I really and actually do not know!"
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"11") ) {
-        [segue destinationViewController].modalPresentationStyle = UIModalPresentationOverFullScreen;
+        // decomment the line below for the workaround...
+        //[segue destinationViewController].modalPresentationStyle = UIModalPresentationOverFullScreen;
     }
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "LeftMenuTableViewController.h"
+#import "Macros.h"
 
 @interface LeftMenuTableViewController ()
 
@@ -43,7 +44,10 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-
+#warning "Why?! ...guess what?! I really and actually do not know!"
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"11") ) {
+        [segue destinationViewController].modalPresentationStyle = UIModalPresentationOverFullScreen;
+    }
 }
 
 

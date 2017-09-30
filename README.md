@@ -11,6 +11,9 @@ I've post a video here: https://youtu.be/mgjlbkMi-N8
 
 It seems a bug of the compilation on Xcode 9.
 
+Tryed also on real device iPad Pro with iOS 11. 
+The same code compiled with Xcode 8.3.3 works as expected, while compiled with Xcode 9 expose the issue.
+
 I've put a playground code here: https://github.com/shadowsheep1/xcode9navigationissue
 
 With alrady a workaround: set the presentation to Over Full Screen.

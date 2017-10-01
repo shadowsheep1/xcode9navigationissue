@@ -23,5 +23,3 @@ But that has no meaning this is not the exptected operation.
 Once the navigation bar is broken, is broken for every navigation controller in the App. O_O
 
 Any idea?
-
-UPDATE: 01/10/2017 just updated my device (iPhone) with brand new iOS 11.0.1 and this version of OS doesn't expose the bug even with Xcode 9. So it's seems only the combination (XCode 9 + iOS 11.0.0)

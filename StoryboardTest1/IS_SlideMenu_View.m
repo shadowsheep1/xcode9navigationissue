@@ -72,7 +72,7 @@
 {
     UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
     if(orientation == UIDeviceOrientationPortrait || orientation == UIDeviceOrientationLandscapeLeft || orientation == UIDeviceOrientationLandscapeRight){
-        NSLog(@"%ld",orientation);
+        NSLog(@"%ld",(long)orientation);
         if(!hidden && lastOrientation != orientation){
             [self hideSlideMenu];
             hidden = YES;

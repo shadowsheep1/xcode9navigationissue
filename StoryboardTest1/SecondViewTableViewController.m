@@ -61,7 +61,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"%@: %ld", NSStringFromClass(self.class), indexPath.row);
+    NSLog(@"%@: %ld", NSStringFromClass(self.class), (long)indexPath.row);
 }
 
 @end

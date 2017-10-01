@@ -18,7 +18,7 @@ I've put a playground code here: https://github.com/shadowsheep1/xcode9navigatio
 
 With already a workaround: set the presentation to Over Full Screen.
 
-But that has no meaning and why and, above all, I don't wanna do that.
+But that has no meaning this is not the exptected operation.
 
 Once the navigation bar is broken, is broken for every navigation controller in the App. O_O
 

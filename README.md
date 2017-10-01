@@ -3,7 +3,7 @@ Xcode 9 navigation issue after navigating from left side menu
 
 In support of this stackowerflow question: https://stackoverflow.com/questions/46491327/xcode-9-navigation-bar-issue-after-navigating-from-left-side-menu-on-ios-11-not
 
-"After updating from Xcode 8 to Xcode 9 I've noticed this very strange behaviour in the navigation bar only on devices running iOS 11.
+After updating from Xcode 8 to Xcode 9 I've noticed this very strange behaviour in the navigation bar only on devices running iOS 11.
 
 This bug appears after navigating from my left side menu that show the menu controller you choose modally with a default presentation (That is Full Screen)
 
@@ -22,4 +22,6 @@ But that has no meaning and why and, above all, I don't wanna do that.
 
 Once the navigation bar is broken, is broken for every navigation controller in the App. O_O
 
-Any idea?"
+Any idea?
+
+UPDATE: 01/10/2017 just updated my device (iPhone) with brand new iOS 11.0.1 and this version of OS doesn't expose the bug even with Xcode 9. So it's seems only the combination (XCode 9 + iOS 11.0.0)

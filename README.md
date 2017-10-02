@@ -20,6 +20,6 @@ With already a workaround: set the presentation to Over Full Screen.
 
 But that has no meaning this is not the exptected operation.
 
-Once the navigation bar is broken, is broken for every navigation controller in the App. O_O
+Once the navigation bar is broken, is broken for every navigation controller in the App.
 
 Any idea?
